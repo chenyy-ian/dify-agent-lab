@@ -1,0 +1,24 @@
+# 依赖与缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# 环境与密钥：DSL 中不含密钥，但本地测试时别手滑提交
+.env
+.env.*
+!.env.example
+*.local
+db_uri.txt
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志与临时产物
+*.log
+tmp/
+out/
